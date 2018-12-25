@@ -37,13 +37,13 @@
     }
 
     function getMessages(){
-        $.get("http://localhost:3000/messages", (data) =>{
+        $.get("http://alexapp.com/messages", (data) =>{
             data.forEach(addMessage);
         })
     }
 
     function postMessage(message){
-        $.post("http://localhost:3000/messages", message)
+        $.post("http://alexapp.com/messages", message)
     }
 
 </script>
